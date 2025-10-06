@@ -1,0 +1,4 @@
+// What is useMemo hook?
+// - useMemo is a hook in React that is used to optimize the performance of functional components by memoizing or caching the result of a function call. It is only called when one of its dependencies has changed, which helps to avoid unnecessary re-renders and improves the performance of the component. useMemo takes two arguments: a function that returns a value to be memoized, and an array of dependencies that determine when the memoized value should be recalculated. It returns the memoized value.
+// - useMemo should be used when a function is computationally expensive and its result does not change frequently. It is important to note that useMemo should not be used for every function in a component, as it can add unnecessary complexity and overhead. Instead, it should be used selectively for functions that have a significant impact on performance.
+
